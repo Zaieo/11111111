@@ -357,6 +357,151 @@ nav ul li a.active {
     }
 }
 
+
+
+
+/*eerase */
+
+
+/* Responsive Styles for 360x640 screens */
+@media (max-width: 360px) {
+    body {
+        font-size: 14px;
+    }
+
+    .container {
+        width: 90%;
+        padding: 16px;
+    }
+
+    .loader-widget {
+        width: 100%;
+        height: auto;
+    }
+
+    .loader {
+        width: 160px;
+        height: 160px;
+    }
+
+    .loader-widget h2 {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .loader-content {
+        flex-direction: column;
+    }
+
+    .loader-content button {
+        width: 180px;
+        height: 180px;
+        font-size: 18px;
+    }
+
+    .speed-history table {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 414px) {
+    body {
+        font-size: 16px; /* Slightly larger font for readability */
+    }
+
+    .container {
+        width: 85%;
+        padding: 20px;
+    }
+
+    .loader-widget {
+        width: 100%;
+        height: auto;
+    }
+
+    .loader {
+        width: 200px;
+        height: 200px;
+    }
+
+    .loader-widget h2 {
+        font-size: 20px;
+        margin-bottom: 24px;
+    }
+
+    .loader-content {
+        flex-direction: column;
+    }
+
+    .loader-content button {
+        width: 220px;
+        height: 220px;
+        font-size: 22px;
+    }
+
+    .speed-history table {
+        font-size: 16px;
+    }
+}
+
+/* Responsive Styles for 360×780 screens */
+@media (max-width: 360px) {
+    body {
+        font-size: 16px; /* Adjusted for readability */
+    }
+
+    .container {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .loader-widget {
+        width: 100%;
+        height: auto;
+    }
+
+    .loader {
+        width: 200px;
+        height: 200px;
+    }
+
+    .loader-widget h2 {
+        font-size: 22px;
+        margin-bottom: 24px;
+    }
+
+    .loader-content {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .loader-content button {
+        width: 200px;
+        height: 200px;
+        font-size: 18px;
+    }
+
+    .loader-content .content {
+        font-size: 16px;
+        line-height: 1.4;
+    }
+
+    .speed-history table {
+        font-size: 14px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /* Subpage Styles */
 .subpage-header {
     background: linear-gradient(to right, #455a64, #37474f);
